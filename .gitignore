@@ -1,0 +1,23 @@
+# Raw data
+Data/*.csv
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.venv/
+venv/
+
+# Generated model files
+outputs/models/*.pkl
+outputs/models/*.joblib
+
+# Operating system files
+.DS_Store
+Thumbs.db
